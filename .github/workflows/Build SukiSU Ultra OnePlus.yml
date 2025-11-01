@@ -904,7 +904,7 @@ jobs:
 
       - name: Make AnyKernel3
         run: |
-          git clone https://github.com/rin0011/AnyKernel3.git --depth=1
+          git clone -b oplus https://github.com/rin0011/AnyKernel3.git --depth=1
           rm -rf ./AnyKernel3/.git
           mkdir -p kernel_workspace/kernel_platform/out/Final-Image-Find/
           dir1=""
